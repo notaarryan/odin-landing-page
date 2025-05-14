@@ -15,13 +15,17 @@ body {
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 18px;
+    padding: 20px 0 20px 0;
 }
 
 .header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
+    flex-basis: 450px;
     color: #f9faf8;
 }
 
@@ -29,6 +33,9 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 18px;
+    flex-basis: 700px;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -40,18 +47,25 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .hero-section {
     background-color: #1f2937;
-    padding: 40px 100px;
+    padding: 80px;
     width: 100%;
-    /* flex: 1; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    gap: 8px;
 }
 
 .footer {
@@ -61,4 +75,41 @@ a {
     background-color: #1f2937;
     color: white;
     padding: 28px;
+}
+
+.main-title-left-section {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext-left-section {
+    font-size: 18px;
+    color: rgb(112, 118, 127);
+}
+
+.sign-up-button {
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #3882f8;
+    color: #f9faf8;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-section {
+    height: 250px;
+    width: 500px;
+    display: flex;
+}
+
+.placeholder {
+    background-color: rgb(110, 116, 124);
+    color: white;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
