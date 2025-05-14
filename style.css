@@ -178,17 +178,21 @@ a {
 }
 
 .quote {
-    font-size: 38px;
-    width: 800px;
+    font-size: 2em;
+    max-width: 800px;
+    width: 100%;
     font-weight: 200;
+    line-height: 1.4;
 }
 
 .author {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5em;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    padding-top: 20px;
 }
 
 .sign-up-section {
@@ -203,15 +207,18 @@ a {
 .sign-up-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #3882f8;
-    padding: 60px;
-    height: 150px;
+    padding: 10px;
     width: 80%;
     border-radius: 10px;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .sign-up-container .left-section {
     flex-basis: 600px;
+    height: 100px;
     color: white;
     display: flex;
     justify-content: center;
@@ -231,8 +238,9 @@ a {
 }
 
 .sign-up-container .right-section {
+    height: 35px;
+    min-height: 50px;
     flex-basis: 200px;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
