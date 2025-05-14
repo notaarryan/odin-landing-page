@@ -190,3 +190,60 @@ a {
     display: flex;
     justify-content: end;
 }
+
+.sign-up-section {
+    padding: 90px 80px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f8;
+    padding: 60px;
+    height: 150px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.sign-up-container .left-section {
+    flex-basis: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container .left-section-title {
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-container .left-section-subtext {
+    align-self: flex-start;
+    font-size: 18px;
+    color: rgb(229, 231, 235);
+}
+
+.sign-up-container .right-section {
+    flex-basis: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section button {
+    background-color: #3882f8;
+    border: solid 2px #f9faf8;
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+}
